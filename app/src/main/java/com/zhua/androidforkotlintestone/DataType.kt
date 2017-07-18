@@ -40,7 +40,7 @@ class DataType : AppCompatActivity() {
         println("hello world from CharArray type:" + String(helloworldCharArray))
         println("class name hello world:" + DataType::class.java.simpleName)
         println("class name hello world:" + DataType::class.java.name)
-        println("part of the class name of MainActivity:" + DataType::class.java.simpleName.slice(0 until helloWorldLength))
+        println("part of the class name of MainActivity:" + DataType::class.java.simpleName.slice(0 until 4))
         println("the length of hello world is:" + helloWorldLength)
         println("the length of hello world is(long):" + helloWorldLengthLong)
         println("string:" + string)
